@@ -1,0 +1,103 @@
+/* head.css */
+.navbar-collapse {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    margin-right: 100px;
+}
+.navbar-default {
+       border:none;
+       background:#fff !important;
+}
+.navbar-nav>li {
+    margin-right: -5px;
+    margin-left: -10px; 
+}
+.navbar-nav>li>a：hover{
+    border-bottom: 1px solid #2dae36 !important;
+}
+.navbar-nav>li>a:hover {
+    color: #2dae36 !important;
+}
+.navbar-brand {
+    width: 240px;
+    height: 60px;
+    background: url("../images/logo0.png") no-repeat;
+    margin-left: 100px;
+}
+@media (max-width:860px) {
+    .navbar-brand {
+        width: 97px;
+        height: 63px;
+        background: url("../images/logo1.png") no-repeat
+    }
+}
+/* footer */
+.footer{
+    margin-top: 70px;
+    background: #ddd;
+}
+.aa{
+    margin-top: 40px;
+}
+.aa img{
+    margin-left: 80px;
+}
+.bb{
+    margin-top: 60px;
+}
+@media (max-width:768px){
+    .bb{
+    margin-top: 15px;
+}
+}
+.bb a{
+    color:#999;
+    text-decoration: none;
+    width:24%;
+    display:inline-block;
+}
+@media (max-width:768px){
+    .bb a{
+        line-height: 30px;
+     text-decoration: none;
+    color:#999;
+    margin-left: 80px;
+}
+}
+.bb p{
+    margin-top: 8px;
+    font-size: 12px;
+    color:#999;
+   margin-left:110px;
+}
+@media (max-width:768px){
+    .bb p{
+    font-size: 12px;
+    color:#999;
+   margin-left: 80px;
+}
+}
+.bb>a:hover{
+    color:#2dae36 !important;
+    cursor: pointer;
+}
+.cc{
+    margin-top: 40px;
+}
+@media (max-width:768px){
+    .cc{
+        margin-top: 15px;
+    }
+}
+.cc p{
+    color:#999;
+}
+@media (max-width:768px){
+    .cc p{
+        margin-left: 80px;
+    }
+}
+@media (max-width:768px){
+    .footer a{
+        display: block;
+        margin-top: 0px;
+    }
+}

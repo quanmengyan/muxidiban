@@ -1,0 +1,56 @@
+
+   @import "common.css";     
+        .one {
+            text-align: center;
+            font-size: 22px;
+            margin-top: 30px;
+        }
+        .two {
+            /* width: 1200px; */
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 40px;
+        }
+        .two [class^="col"]{
+            text-align: center; 
+        }
+        row::after { 
+            display: table;
+            content: "";
+            clear: both;
+        }
+        /* .tc {
+            text-align: center;
+        } */
+        .three{
+            margin-right: auto;
+            margin-left: auto;
+            width:auto;
+            height:40px;
+            border-bottom: 1px solid #2dae36;
+            margin-left: 100px;
+            margin-right: 100px;
+           margin-bottom: 40px;
+        }
+        .three-1 p{
+            color:#fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 40px;
+            background: #2dae36;
+            width:120px;
+            height:40px;
+            border:1px solid #2dae36;
+           border-radius: 15px 0px 15px 0px;
+        }
+        .four{
+            margin-left: 90px;
+            margin-right: 90px;
+           
+        }
+        .four [class^="col"]{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+ 
